@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Features\RegisterUser\Commands\Handler\" />
     <Folder Include="Hubs\Client\" />
     <Folder Include="Services\Interfaces\" />
   </ItemGroup>

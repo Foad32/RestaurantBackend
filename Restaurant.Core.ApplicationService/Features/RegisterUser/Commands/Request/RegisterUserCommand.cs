@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MediatR;
+using Restaurant.Core.Domain.DTOs;
 
-namespace Restaurant.Core.ApplicationService.Features.RegisterUser.Commands.Request
+namespace Restaurant.Core.ApplicationService.Features.RegisterUser.Commands.Request;
+
+public record RegisterUserCommand : IRequest<int>
 {
-    public record RegisterUserCommand
-    {
-    }
+    public required RegisterUserDTO RegisterUserDTO { get; set; }
 }
+

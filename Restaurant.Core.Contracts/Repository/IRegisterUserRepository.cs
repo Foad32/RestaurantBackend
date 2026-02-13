@@ -5,5 +5,7 @@ namespace Restaurant.Core.Contracts.Repository
 {
     public interface IRegisterUserRepository : IGenericRepository<User>
     {
+        Task<long> GenerateUserId();
+        Task<User?> GetUserByPhoneNumber(string phoneNumber);
     }
 }
