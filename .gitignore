@@ -1,0 +1,80 @@
+## Build output
+bin/
+obj/
+out/
+publish/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+*.dbmdl
+
+## Rider / JetBrains
+.idea/
+
+## VS Code
+.vscode/
+
+## Logs
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+## Test results
+TestResults/
+*.trx
+
+## ASP.NET Core
+appsettings.Development.json
+appsettings.Local.json
+
+## Secrets
+secrets.json
+
+## Entity Framework
+Migrations/*.Designer.cs
+
+## Coverage / reports
+coverage/
+*.coverage
+*.coveragexml
+
+## Publish profiles
+Properties/PublishProfiles/
+
+## Azure / deployment
+*.publishsettings
+
+## Temporary files
+*.tmp
+*.temp
+
+## Dotnet tooling
+.dotnet/
+
+## Node (if frontend exists)
+node_modules/
+dist/
+build/
+
+## Docker
+docker-compose.override.yml
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## Backup / cache
+*.bak
+*.cache
